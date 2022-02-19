@@ -217,8 +217,20 @@ section {
   margin: 16px auto;
 }
 
+.divider {
+  height: 3px;
+  width: 60px;
+  background: linear-gradient(
+    -45deg,
+    rgb(0, 225, 255, 0.8) 0%,
+    rgb(0, 4, 255, 0.9) 150%
+  );
+  margin: 10px auto;
+}
+
 .service .service-img {
   position: relative;
+  max-width: 100%;
 }
 
 .service .service-img .icon {
@@ -231,7 +243,7 @@ section {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 180px;
+  top: 360px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -303,7 +315,7 @@ form .form-control:focus, form .form-group .form-control:focus {
     0px 0px 8px rgba(255, 255, 255, 0.3);
 }
 
-footer {
+.gradientText {
   background: -webkit-linear-gradient(
     -75deg,
     rgb(0, 225, 255) 0%,
